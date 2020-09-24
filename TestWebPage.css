@@ -1,91 +1,108 @@
 #brand {
-    background: red;
+  background: red;
 }
-.img1{
-    background:url("https://cdn.hipwallpaper.com/m/28/60/QeNZtU.jpg")center center/cover no-repeat ;
-    width:100%;
-    height:500px;
-    
+.full-height {
+  height: 100vh;
 }
-#content{
-    color:white;
-    text-align: left;
-    padding-top: 5cm;
-    padding-left: 5cm;
+.img1 {
+  background: url("img/banner.jpg") center center/cover no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* height: 500px; */
 }
-.well{
-    color:red;
-    text-align: center;
-    padding-top:5cm;
-    text-decoration: underline;
-   
+#content {
+  color: white;
+  text-align: left;
+  padding-left: 5cm;
 }
-.win{
-    color:gray;
-    text-align: center;
-    padding-right:4cm;
-    padding-left:4cm;
+.half-height {
+  height: 50vh;
 }
-#btn{
-    margin-left: 8.5cm;
+.well {
+  color: red;
+  /* text-align: center; */
+  /* padding-top: 5cm; */
+  text-decoration: underline;
 }
-#black{
-    background: black;
+.win {
+  color: gray;
+  text-align: justify;
+  width: 80%;
+  /* padding-right: 4cm; */
+  /* padding-left: 4cm; */
 }
-#black1{
-    background: black;
-    border:1px solid white;
-    padding-bottom: 100px;
-} 
-#black h2{
-    color:white;
+#btn {
+  /* margin-left: 8.5cm; */
 }
-#crop{
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
-}  
-.green{
-    background:rgb(76, 124, 5);
+#black {
+  background: black;
 }
-.aa{
-    padding: 2cm;
+#black1 {
+  background: black;
+  border: 1px solid white;
+  padding-bottom: 100px;
 }
-.bb{
-    padding: 2cm;
+#black h2 {
+  color: white;
 }
-.cc{
-    padding: 2cm;
+.cropped-image-container {
+  width: 60%;
 }
-.dd{
-    padding: 2cm;
+#crop {
+  /* clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%); */
+  clip-path: polygon(0 0, 100% 0, 75% 100%, 0% 100%);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.ee{
-    padding: 2cm;
+.play-container {
+  padding: 3%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
-#card1{
-    padding-right:7px ;
+.green {
+  background: rgb(76, 124, 5);
 }
-.grid{
-    background: pink;
-    padding:70px;
+.aa {
+  padding: 2cm;
 }
-.photo{
-    border-radius: 50%;
-    width:100px;
+.bb {
+  padding: 2cm;
 }
-.photo2{
-    width:60px;
+.cc {
+  padding: 2cm;
 }
-.photo3{
-    width:60px;
-    
+.dd {
+  padding: 2cm;
 }
-.photo4{
-    width:60px;
+.ee {
+  padding: 2cm;
 }
-#photo5{
-    height:30px;
+#card1 {
+  padding-right: 7px;
 }
-
-
-
-
+.grid {
+  background: pink;
+  padding: 70px;
+}
+.photo {
+  border-radius: 50%;
+  width: 100px;
+}
+.photo2 {
+  width: 60px;
+}
+.photo3 {
+  width: 60px;
+}
+.photo4 {
+  width: 60px;
+}
+#photo5 {
+  height: 30px;
+}

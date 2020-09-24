@@ -1,0 +1,67 @@
+#brand {
+    background: red;
+}
+.img1{
+    background:url("https://cdn.hipwallpaper.com/m/28/60/QeNZtU.jpg")center center/cover no-repeat ;
+    width:100%;
+    height:500px;
+    
+}
+#content{
+    color:white;
+    text-align: left;
+    padding-top: 5cm;
+    padding-left: 5cm;
+}
+.well{
+    color:red;
+    text-align: center;
+    padding-top:5cm;
+    text-decoration: underline;
+   
+}
+.win{
+    color:gray;
+    text-align: center;
+    padding-right:4cm;
+    padding-left:4cm;
+}
+#btn{
+    margin-left: 8.5cm;
+}
+#black{
+    background: black;
+}
+#black1{
+    background: black;
+    border:1px solid white;
+    padding-bottom: 100px;
+} 
+#black h2{
+    color:white;
+}  
+.green{
+    background:rgb(76, 124, 5);
+}
+.aa{
+    padding: 2cm;
+}
+.bb{
+    padding: 2cm;
+}
+.cc{
+    padding: 2cm;
+}
+.dd{
+    padding: 2cm;
+}
+.ee{
+    padding: 2cm;
+}
+.grid{
+    background: pink;
+    padding:70px;
+}
+
+
+
